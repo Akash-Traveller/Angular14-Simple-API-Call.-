@@ -1,0 +1,16 @@
+<div>
+  <form #myform="ngForm" (ngSubmit)="onFormSubmit(myform.value)">
+    <div>
+      <input type="text" name="name" ngModel>
+    </div>
+    <div>
+      <input type="text" name="adddress" ngModel>
+    </div>
+    <div>
+      <input type="text" name="country" ngModel>
+    </div>
+    <div>
+      <button type="submit" value="submitform">submit</button>
+    </div>
+  </form>
+</div>
